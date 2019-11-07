@@ -11,3 +11,8 @@ def line(line)
   end
  puts output
 end
+
+def take_a_number(line, name)
+  line.push(name)
+  puts "Welcome, #{name}. You are number #{line.size} in line."
+end
