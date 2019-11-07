@@ -6,8 +6,8 @@ def line(line)
   if line.size == 0
     output = "The line is currently empty."
   else
-    line.each{|name, index|
-    output = "#{output} #{index}. #{name}"}
+    line.each_with_index{|name, index|
+    output = "#{output} #{index + 1}. #{name}"}
   end
  puts output
 end
