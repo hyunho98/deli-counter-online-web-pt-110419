@@ -9,5 +9,5 @@ def line(line)
     line.each{|name, index|
     output += " #{index + 1}. #{name}"}
   end
- output
+ puts output
 end
