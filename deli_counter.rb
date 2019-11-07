@@ -7,7 +7,7 @@ def line(line)
     puts "The line is currently empty."
   else
     line.each{|name, index|
-    output += " #{index + 1}. #{name}"}
+    output = "#{output} #{index + 1}. #{name}"}
   end
  puts output
 end
